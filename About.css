@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}	
+.nitin{
+	background: url(15.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+	background-position: center center;
+}
+.nandan{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+	
+}
+.nandan .logo{
+	width: 12%;
+	height: auto;
+	padding: 0.0001px 100px;
+	margin-top: -18px;
+}
+.nandan ul{
+	float: right;
+	margin-right: 20px;
+}
+.nandan ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.nandan ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+	background: red;
+}
+.nandan ul li a:hover{
+	border-radius: 2px;
+	background: #cc0000;
+}
+.nitin .center{
+	position: absolute;
+	left: 50%;
+	top: 57%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: white;
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
